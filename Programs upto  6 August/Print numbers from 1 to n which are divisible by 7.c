@@ -8,9 +8,9 @@ int main()
   for(k=1;k<=n;k++){
     r = k%7;
     if(r!=0){
-      printf("%d is not divisible by 7 \n ", r);
+      printf("%d is not divisible by 7 \n ", k);
     }else{
-      printf("\n %d is divisible by 7 \n", r);
+      printf("\n %d is divisible by 7 \n", k);
     }
   }
 	getch();
