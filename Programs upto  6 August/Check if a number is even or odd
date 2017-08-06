@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a;
+  printf("\n Enter the number \n");
+  scanf("%d",&a);
+  if(a%2==0){
+    printf("The number %d is odd", a);
+  }else{
+    printf("number is odd");
+  }
+	getch();
+	return 0;
+}
+
+
