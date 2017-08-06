@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int r=1,c=1,i,j;
+	int arr[r][c];
+	printf("\n enter the number of rows and column \n");
+	scanf("%d %d",&r,&c);
+	printf("\n enter the value in the array \n");
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+			scanf("%d",&arr[i][j]);
+		}
+	}
+	printf("\n the elements are \n");
+	for(i=0;i<r;i++)
+	{
+		for(j=0;j<c;j++)
+		{
+		printf("%d \t",arr[i][j]);
+		}
+	 printf("\n");
+	}
+	getch();
+	return 0;
+}
+	
