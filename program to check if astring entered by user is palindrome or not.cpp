@@ -5,7 +5,7 @@ int main()
 {
 	char str[10], copy str[10]; 
 	int x;
-	cout<<"program to cheack if astring entered by user is palindromeor not";
+	cout<<"program to check if astring entered by user is palindromeor not";
 	cin>>str;
 	strrev
 	strcpy(copy,str);
